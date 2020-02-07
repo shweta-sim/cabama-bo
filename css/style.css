@@ -27,6 +27,12 @@ body {
     -moz-font-smoothing: antialiased;
     background: #f0f0f0;
 }
+@media screen and (max-width: 1680px) {
+body {
+    font-size: 12px;
+    line-height: 18px;
+}
+}
 a, p, img, div, ul, li, span, h1, h2, h3, h4, h5, h6, form, input, select, hr, header, footer, section, article, nav, iframe {
     margin: 0;
     padding: 0;
@@ -51,7 +57,7 @@ a:hover, a:focus {
 }
 .label-bl {
     min-height: 30px;
-    padding: 8px 15px;
+    padding: 9px 10px;
     font-size: 12px;
     line-height: 12px;
     background: #fff;
@@ -126,6 +132,18 @@ a:hover, a:focus {
     padding-right: 10px;
     padding-left: 10px;
 }
+@media screen and (max-width: 1680px) {
+.row2 {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.row2 .cols {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+}
+
+
 .table {
     width: 100%;
     margin-bottom: 0;
@@ -344,58 +362,33 @@ h6 {
     font-size: 20px;
     line-height: 28px;
 }
-@media screen and (max-width: 1199.98px) {
-    h1 {
-        font-size: 42px;
-        line-height: 50px;
-    }
-    h2 {
-        font-size: 36px;
-        line-height: 44px;
-    }
-    h3 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    h4 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    h5 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    h6 {
-        font-size: 20px;
-        line-height: 28px;
-    }
+@media screen and (max-width: 1680px) {
+h1 {
+    font-size: 36px;
+    line-height: 42px;
 }
-@media screen and (max-width: 991.98px) {
-    h1 {
-        font-size: 36px;
-        line-height: 42px;
-    }
-    h2 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    h3 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    h4 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    h5 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    h6 {
-        font-size: 20px;
-        line-height: 28px;
-    }
+h2 {
+    font-size: 32px;
+    line-height: 38px;
 }
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 30px;
+}
+h5 {
+    font-size: 20px;
+    line-height: 26px;
+}
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+
 /* --- Form Elements CSS --- */
 .form-group {
     position: relative;
@@ -407,8 +400,8 @@ h6 {
     height: auto !important;
     min-height: 50px;
     padding: 12px 20px;
-    font-size: 16px !important;
-    line-height: 16px !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
     color: #000000;
     font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif !important;
     background: #fff;
@@ -444,6 +437,14 @@ h6 {
 .form-control:focus::-ms-input-placeholder {
     color: #000000 !important;
 }
+@media screen and (max-width: 1680px) {
+.form-control {
+    min-height: 40px;
+    padding: 8px 15px;
+    font-size: 12px !important;
+    line-height: 12px !important;
+}
+}
 /* --- Buttons CSS --- */
 .btn {
     display: inline-flex;
@@ -453,8 +454,8 @@ h6 {
     padding: 12px 30px;
     margin: 0;
     color: #fff !important;
-    font-size: 16px;
-    line-height: 16px !important;
+    font-size: 14px;
+    line-height: 14px !important;
     font-weight: 500 !important;
     text-align: center;
     white-space: nowrap;
@@ -496,15 +497,28 @@ h6 {
 .btn-sm {
     min-height: 30px;
     padding: 8px 15px;
-    font-size: 13px;
-    line-height: 13px !important;
+    font-size: 12px;
+    line-height: 12px !important;
     font-weight: 400 !important;
 }
 .btn-bl {
     display: block;
     width: 100%;
 }
-
+@media screen and (max-width: 1680px) {
+.btn {
+    min-height: 40px;
+    padding: 8px 30px;
+    font-size: 12px;
+    line-height: 12px !important;
+}
+.btn-sm {
+    min-height: 30px;
+    padding: 9px 15px;
+    font-size: 11px;
+    line-height: 10px !important;
+}
+}
 
 
 /* ##########################################################  
@@ -617,8 +631,18 @@ a[data-toggle="collapse"] {
     #sidebar.active {
         margin-left: -270px;
     }
+    #sidebar ul.sidenav li {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    #sidebar ul li a {    
+        padding: 15px 30px;
+    }
+    #sidebar ul li a i {
+        font-size: 14px;
+    }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1366px) {
     #sidebar {
         margin-left: -270px;
     }
@@ -653,7 +677,7 @@ a[data-toggle="collapse"] {
         width: calc(100% - 270px);
     }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1366px) {
     #content {
         width: 100%;
     }
@@ -682,6 +706,12 @@ header:after {
     background: url("../imgs/bg-header.png") 100% 0 no-repeat;
     z-index: 0;
     opacity: .05;
+}
+@media screen and (max-width: 1680px) {
+header {
+    padding: 15px 30px;
+    padding-bottom: 80px;
+}
 }
 @media screen and (max-width: 576.98px) {
     header:after {
@@ -742,7 +772,7 @@ header:after {
 .dropdown-menu:after {
     position: absolute;
     right: 15px;
-    top: -15px;
+    top: -13px;
     font-family: 'FontAwesome';
     content: "\f0d8";
     font-size: 36px;
@@ -810,15 +840,15 @@ header:after {
 }
 .dropdown-notifications .dropdown-item h6 {
     position: relative;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
     padding-left: 30px;
 }
 .dropdown-notifications .dropdown-item h6 span {
     display: block;
     margin-top: 2px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 18px;
     color: #b5b5b5;
 }
 .dropdown-notifications .dropdown-item h6 i {
@@ -832,8 +862,18 @@ header:after {
     color: #fff;
     font-weight: 500;
 }
-.page-title h6 {
-    font-size: 16px;
+@media screen and (max-width: 1680px) {
+.navbar {
+    margin: 0 0 15px 0;
+}
+.navbar .navbar-nav .nav-link {
+    width: 40px;
+    height: 40px;
+}
+.dropdown-header .img-profile {
+    width: 40px;
+    height: 40px;
+}
 }
 @media screen and (max-width: 576.98px) {
     .dropdown-notifications {
@@ -870,12 +910,14 @@ header:after {
     padding: 15px;
     border-radius: 5px;
 }
-@media screen and (max-width: 576.98px) {
-    .card-content {
-        padding: 20px;
-    }
+@media screen and (max-width: 1680px) {
+.card-heading, .card-content {
+    padding: 20px;
 }
-
+.content-bl {
+    padding: 15px;
+}
+}
 
 .warnings {}
 .warnings h4 {
@@ -883,7 +925,7 @@ header:after {
 }
 .warnings h4 span {
     color: #044e7f;
-    font-size: 20px;
+    font-size: 18px;
 }
 @media (max-width: 576.98px) {
     .warnings h4 span {
@@ -891,8 +933,8 @@ header:after {
     }
 }
 .incubator-chain .table {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 11px;
+    line-height: 14px;
 }
 .incubator-chain .table td {
     padding: 5px 3px;
@@ -906,16 +948,17 @@ header:after {
     background: none !important;
 }
 .incubator-chain .table .table td {
-    padding: 3px 3px;
+    padding: 2px 3px;
     border-bottom: none;
     background: none !important;
 }
 .value-label {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 10px !important; 
     background: rgba(0,0,0,0.3);
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -942,13 +985,17 @@ header:after {
     border-color: #ea8423;
 }
 .progress {
-    height: 5px;
+    height: 20px !important;
     margin-bottom: 2px;
-    background-color: #b5b5b5;
-    border-radius: 0;
+    background-color: #b5b5b5;    
 }
 .progress-bar {
     background-color: #000;
+}
+.wallet-bl .progress {
+    margin-bottom: 1px;
+    height: 5px !important;
+    border-radius: 0 !important;
 }
 .wallet-bl.green .progress-bar {
     background-color: #61d836;
@@ -971,8 +1018,8 @@ header:after {
 .nav-tabs .nav-link {
     min-height: 50px;
     padding: 17px 30px !important;
-    font-size: 16px;
-    line-height: 16px !important;
+    font-size: 14px;
+    line-height: 14px !important;
     font-weight: 500 !important;
     color: #fff;
     background: #b5b5b5 !important;
@@ -1018,6 +1065,20 @@ header:after {
 .lcPad5{
     padding-left: 7px !important; 
     padding-right: 7px !important; 
+}
+@media screen and (max-width: 1680px) {
+ .nav-tabs .nav-link {
+    min-height: 40px;
+    padding: 15px 30px !important;
+    font-size: 14px;
+    line-height: 14px !important;
+}   
+.nav-tabs-sm.nav-tabs .nav-link {
+    min-height: 30px;
+    padding: 8px 15px !important;
+    font-size: 12px;
+    line-height: 12px !important;
+}
 }
 /* --- Accordion CSS --- */
 .panel {
@@ -1126,12 +1187,10 @@ Incubator coop
 #world-map-table table td i.active{
     color:#b5b5b5;
 }
-.responsive-table table td i:hover, 
-#world-map-table table td i:hover
+.responsive-table table td.activeGreen i, 
+#world-map-table table td.activeGreen i
 {
-    color:#04426c;
-    cursor: pointer;
-    transition: .2s ease;
+    color:#00b300;
 }
 .responsive-table table th,
 #world-map-table table th
@@ -1552,6 +1611,11 @@ Loacl Tab
     background-size: cover;
     background-position: bottom center;
 }
+@media screen and (max-width: 1680px) {
+.faq-search .card-inner {
+    padding: 40px 30px;
+}
+}
 /*################################
        Licence Page
 ##################################*/
@@ -1589,15 +1653,15 @@ Loacl Tab
     background: #f0f0f0;
     padding: 20px 10px 25px 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
 }
 .lic-box-inner span{
     line-height: 22px;
 }
-.lic-box-inner p{
+.lic-box-inner p {
     padding-top: 20px;
-    font-size: 48px
+    font-size: 42px
 }
 .lic-i5 p{
     color:#ea8423;
@@ -1616,9 +1680,9 @@ Loacl Tab
 }
 .licence-box-btn a{
     color:#fff;
-    padding: 16px 30px;
+    padding: 12px 30px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
 }
 .lic-i5-btn a{
@@ -1650,13 +1714,13 @@ Loacl Tab
     margin-top: -99px;
 }
 .license-name{
-    font-size:36px;
+    font-size:30px;
     color:#ea8423;
     font-weight: 500;
     margin-bottom: 15px;
 }
 .license-buy-box p{
-    font-size: 16px;
+    font-size: 14px;
 }
 .license-detail ul li{
     padding-bottom: 15px;
@@ -1727,9 +1791,9 @@ Loacl Tab
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    padding: 16px 30px;
+    padding: 12px 30px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
 }
 .license-buy-btn button span{

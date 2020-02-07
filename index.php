@@ -74,8 +74,8 @@
                 </div>
               </div>
               <div class="card-content">
-                <div class="row row2 mb2">
-                  <div class="col-sm-6 cols mb2-xs">
+                <div class="row row2 mb1">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-grey">
                       <p class="text-center text-medium mb1">Active nodes</p>
                       <h1 class="text-center text-orange text-bold mb1">24</h1>
@@ -94,7 +94,7 @@
                   </div>
                 </div>
                 <div class="row row2">
-                  <div class="col-sm-6 cols mb2-xs">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-orange">
                       <p class="text-center text-white text-medium mb1">Incubator coops</p>
                       <h1 class="text-center text-white text-bold mb3">10</h1>
@@ -184,8 +184,8 @@
                 </div>
               </div>
               <div class="card-content">
-                <div class="row row2 mb2">
-                  <div class="col-sm-6 cols mb2-xs">
+                <div class="row row2 mb1">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-grey">
                       <p class="text-center text-medium mb1">Active nodes</p>
                       <h1 class="text-center text-pink text-bold mb1">78</h1>
@@ -204,7 +204,7 @@
                   </div>
                 </div>
                 <div class="row row2">
-                  <div class="col-sm-6 cols mb2-xs">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-grey">
                       <p class="text-center text-medium mb1">Downcycled</p>
                       <h1 class="text-center text-pink text-bold mb1">9</h1>
@@ -330,8 +330,8 @@
                 </div>
               </div>
               <div class="card-content">
-                <div class="row row2 mb2">
-                  <div class="col-sm-6 cols mb2-xs">
+                <div class="row row2 mb1">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-grey">
                       <p class="text-center text-medium mb1">Active nodes</p>
                       <h1 class="text-center text-blue text-bold mb1">4</h1>
@@ -350,7 +350,7 @@
                   </div>
                 </div>
                 <div class="row row2">
-                  <div class="col-sm-6 cols mb2-xs">
+                  <div class="col-sm-6 cols mb1-xs">
                     <div class="content-bl bg-grey">
                       <p class="text-center text-medium mb1">Downcycled</p>
                       <h1 class="text-center text-blue text-bold mb1">9</h1>
@@ -473,11 +473,11 @@
                   <div class="row">
                     <div class="col-lg-4 mb3-md"> 
                       <!-- tab start -->
-                      <ul class="lcTab" >
-                        <li class=""> LC1</li>
+                      <!-- <ul class="lcTab" >
+                        <li class=""> </li>
                         <li class=""> LC2</li>
                         <li class=""> LC3</li>
-                      </ul>
+                      </ul> -->
                         <!-- accordion start -->
                           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
                             <!-- accordion panel 1 start -->
@@ -488,6 +488,14 @@
                               <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
                                   <table class="table table2">
+                                    <thead>
+                                    <tr>
+                                        <th width="70%"></th>
+                                        <th width="10%" class="text-center lcPad5">LC1</th>
+                                        <th width="10%" class="text-center lcPad5">LC2</th>
+                                        <th width="10%" class="text-center lcpad5">LC3</th>
+                                      </tr>
+                                    </thead>
                                     <tbody>
                                       <tr>
                                         <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
@@ -521,6 +529,14 @@
                               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
                                   <table class="table table2">
+                                    <thead>
+                                    <tr>
+                                        <th width="70%"></th>
+                                        <th width="10%" class="text-center lcPad5">LC1</th>
+                                        <th width="10%" class="text-center lcPad5">LC2</th>
+                                        <th width="10%" class="text-center lcpad5">LC3</th>
+                                      </tr>
+                                    </thead>
                                     <tbody>
                                       <tr>
                                         <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
@@ -554,6 +570,14 @@
                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
                                   <table class="table table2">
+                                    <thead>
+                                    <tr>
+                                        <th width="70%"></th>
+                                        <th width="10%" class="text-center lcPad5">LC1</th>
+                                        <th width="10%" class="text-center lcPad5">LC2</th>
+                                        <th width="10%" class="text-center lcpad5">LC3</th>
+                                      </tr>
+                                    </thead>
                                     <tbody>
                                       <tr>
                                         <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
@@ -583,8 +607,8 @@
                         <!-- accordion ends -->
                     </div>
                     <div class="col-lg-8">
-                      <div class="row">
-                        <div class="col-xl-4 col-lg-6 mb2-lg">
+                      <div class="row row2">
+                        <div class="col-xl-4 col-lg-6 cols mb2-lg">
                           <div class="d-flex mb1">
                             <h6 class="text-blue text-medium">Local coop1</h6>
                             <h5 class="ml-auto text-orange text-medium">31</h5>
@@ -611,7 +635,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6 mb2-lg">
+                        <div class="col-xl-4 col-lg-6 cols mb2-lg">
                           <div class="d-flex mb1">
                             <h6 class="text-blue text-medium">Local coop2</h6>
                             <h5 class="ml-auto text-orange text-medium">22</h5>
@@ -638,7 +662,7 @@
                             </table>
                           </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6">
+                        <div class="col-xl-4 col-lg-6 cols">
                           <div class="d-flex mb1">
                             <h6 class="text-blue text-medium">Local coop3</h6>
                             <h5 class="ml-auto text-orange text-medium">14</h5>
@@ -688,15 +712,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -707,15 +731,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -730,15 +754,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -749,15 +773,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -772,15 +796,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -791,15 +815,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -814,15 +838,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -833,15 +857,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -856,15 +880,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -875,15 +899,15 @@
                               <div class="content-bl bg-white">
                                 <div class="row">
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                     <p>16/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                     <p>10/31</p>
                                   </div>
                                   <div class="col-4 text-center">
-                                    <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                    <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                     <p>4/31</p>
                                   </div>
                                 </div>
@@ -903,15 +927,15 @@
                           <div class="content-bl bg-white">
                             <div class="row">
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                 <p>16/31</p>
                               </div>
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                 <p>10/31</p>
                               </div>
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                 <p>4/31</p>
                               </div>
                             </div>
@@ -922,15 +946,15 @@
                           <div class="content-bl bg-white">
                             <div class="row">
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-recycled.png"></div>
+                                <div class="mb1"><img src="imgs/icon-recycled.png" class="icon24"></div>
                                 <p>16/31</p>
                               </div>
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-recycleddown.png"></div>
+                                <div class="mb1"><img src="imgs/icon-recycleddown.png" class="icon24"></div>
                                 <p>10/31</p>
                               </div>
                               <div class="col-4 text-center">
-                                <div class="mb1"><img src="imgs/icon-fullpayout.png"></div>
+                                <div class="mb1"><img src="imgs/icon-fullpayout.png" class="icon24"></div>
                                 <p>4/31</p>
                               </div>
                             </div>
