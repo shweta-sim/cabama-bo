@@ -5,6 +5,7 @@
             <li><a href="#" class="nav-link sidebarCollapse" id=""><i class="fas fa-bars"></i></a></li>
         </ul>
         <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart"></i></a> </li>
             <li class="nav-item active"> <a class="nav-link" href="#"><i class="fas fa-calculator"></i></a> </li>
             <li class="nav-item">
                 <div class="dropdown show"> <a class="nav-link" href="#" role="button" id="dropdownNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-bell"></i> </a>
