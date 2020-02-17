@@ -6,7 +6,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="format-detection" content="telephone=no">
-<title>CBM Backoffice | Dashboard</title>
+<title>CBM Backoffice | Licenses</title>
 
 <!-- Bootstrap CSS -->
 <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +45,7 @@
         <div class="col-lg-10 offset-lg-1 col-md-12">
           <div class="row">
             <div class="col-md-4">
-              <div class="licence-box"> <img src="imgs/icon-license-i5.png" class="mb4">
+              <div class="licence-box"> <img src="imgs/icon-license-i5.png" class="mb3">
                 <div class="lic-box-inner mb1 lic-i5"> <span>Total of i5 Licenses</span>
                   <p>20</p>
                 </div>
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="licence-box"> <img src="imgs/icon-license-i25.png" class="mb4">
+              <div class="licence-box"> <img src="imgs/icon-license-i25.png" class="mb3">
                 <div class="lic-box-inner mb1 lic-i25"> <span>Total of i25 Licenses</span>
                   <p>32</p>
                 </div>
@@ -69,7 +69,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="licence-box"> <img src="imgs/icon-license-i125.png" class="mb4">
+              <div class="licence-box"> <img src="imgs/icon-license-i125.png" class="mb3">
                 <div class="lic-box-inner mb1 lic-i125"> <span>Total of i125 Licenses</span>
                   <p>8</p>
                 </div>

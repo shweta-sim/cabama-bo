@@ -16,8 +16,8 @@
 
 <!-- Custom Scrollbar CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-<!-- jQuery JS --> 
-<script type="text/javascript" src="plugins/jquery/jquery-3.3.1.min.js"></script> 
+<!-- jQuery JS -->
+<script type="text/javascript" src="plugins/jquery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body id="dashboard">
@@ -472,139 +472,139 @@
                 <div class="content-bl bg-grey mb3">
                   <div class="row">
                     <div class="col-lg-4 mb3-md"> 
-                      <!-- tab start -->
+                      <!-- tab start --> 
                       <!-- <ul class="lcTab" >
                         <li class=""> </li>
                         <li class=""> LC2</li>
                         <li class=""> LC3</li>
-                      </ul> -->
-                        <!-- accordion start -->
-                          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
-                            <!-- accordion panel 1 start -->
-                            <div class="panel panel-default">
-                              <div class="panel-heading active" role="tab" id="headingOne">
-                                <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Europe</a> </h4>
-                              </div>
-                              <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                  <table class="table table2">
-                                    <thead>
-                                    <tr>
-                                        <th width="70%"></th>
-                                        <th width="10%" class="text-center lcPad5">LC1</th>
-                                        <th width="10%" class="text-center lcPad5">LC2</th>
-                                        <th width="10%" class="text-center lcpad5">LC3</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
-                                        <td width="10%" class="text-center lcPad5">31</td>
-                                        <td width="10%" class="text-center lcPad5">22</td>
-                                        <td width="10%" class="text-center lcpad5">14</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
-                                        <td width="10%" class="text-center">9</td>
-                                        <td width="10%" class="text-center">5</td>
-                                        <td width="10%" class="text-center">2</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
-                                        <td width="10%" class="text-center">2</td>
-                                        <td width="10%" class="text-center">1</td>
-                                        <td width="10%" class="text-center">0</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- accordion panel 1 end --> 
-                            <!-- accordion panel 2 start -->
-                            <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">North America</a> </h4>
-                              </div>
-                              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                  <table class="table table2">
-                                    <thead>
-                                    <tr>
-                                        <th width="70%"></th>
-                                        <th width="10%" class="text-center lcPad5">LC1</th>
-                                        <th width="10%" class="text-center lcPad5">LC2</th>
-                                        <th width="10%" class="text-center lcpad5">LC3</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
-                                        <td width="10%" class="text-center">31</td>
-                                        <td width="10%" class="text-center">22</td>
-                                        <td width="10%" class="text-center">14</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
-                                        <td width="10%" class="text-center">9</td>
-                                        <td width="10%" class="text-center">5</td>
-                                        <td width="10%" class="text-center">2</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
-                                        <td width="10%" class="text-center">2</td>
-                                        <td width="10%" class="text-center">1</td>
-                                        <td width="10%" class="text-center">0</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- accordion panel 2 end --> 
-                            <!-- accordion panel 3 start -->
-                            <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">South America</a> </h4>
-                              </div>
-                              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                  <table class="table table2">
-                                    <thead>
-                                    <tr>
-                                        <th width="70%"></th>
-                                        <th width="10%" class="text-center lcPad5">LC1</th>
-                                        <th width="10%" class="text-center lcPad5">LC2</th>
-                                        <th width="10%" class="text-center lcpad5">LC3</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
-                                        <td width="10%" class="text-center">31</td>
-                                        <td width="10%" class="text-center">22</td>
-                                        <td width="10%" class="text-center">14</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
-                                        <td width="10%" class="text-center">9</td>
-                                        <td width="10%" class="text-center">5</td>
-                                        <td width="10%" class="text-center">2</td>
-                                      </tr>
-                                      <tr>
-                                        <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
-                                        <td width="10%" class="text-center">2</td>
-                                        <td width="10%" class="text-center">1</td>
-                                        <td width="10%" class="text-center">0</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- accordion panel 3 end --> 
+                      </ul> --> 
+                      <!-- accordion start -->
+                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
+                        <!-- accordion panel 1 start -->
+                        <div class="panel panel-default">
+                          <div class="panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Europe</a> </h4>
                           </div>
-                        <!-- accordion ends -->
+                          <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              <table class="table table2">
+                                <thead>
+                                  <tr>
+                                    <th width="70%"></th>
+                                    <th width="10%" class="text-center lcPad5">LC1</th>
+                                    <th width="10%" class="text-center lcPad5">LC2</th>
+                                    <th width="10%" class="text-center lcpad5">LC3</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
+                                    <td width="10%" class="text-center lcPad5">31</td>
+                                    <td width="10%" class="text-center lcPad5">22</td>
+                                    <td width="10%" class="text-center lcpad5">14</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
+                                    <td width="10%" class="text-center">9</td>
+                                    <td width="10%" class="text-center">5</td>
+                                    <td width="10%" class="text-center">2</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
+                                    <td width="10%" class="text-center">2</td>
+                                    <td width="10%" class="text-center">1</td>
+                                    <td width="10%" class="text-center">0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- accordion panel 1 end --> 
+                        <!-- accordion panel 2 start -->
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">North America</a> </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              <table class="table table2">
+                                <thead>
+                                  <tr>
+                                    <th width="70%"></th>
+                                    <th width="10%" class="text-center lcPad5">LC1</th>
+                                    <th width="10%" class="text-center lcPad5">LC2</th>
+                                    <th width="10%" class="text-center lcpad5">LC3</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
+                                    <td width="10%" class="text-center">31</td>
+                                    <td width="10%" class="text-center">22</td>
+                                    <td width="10%" class="text-center">14</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
+                                    <td width="10%" class="text-center">9</td>
+                                    <td width="10%" class="text-center">5</td>
+                                    <td width="10%" class="text-center">2</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
+                                    <td width="10%" class="text-center">2</td>
+                                    <td width="10%" class="text-center">1</td>
+                                    <td width="10%" class="text-center">0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- accordion panel 2 end --> 
+                        <!-- accordion panel 3 start -->
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">South America</a> </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              <table class="table table2">
+                                <thead>
+                                  <tr>
+                                    <th width="70%"></th>
+                                    <th width="10%" class="text-center lcPad5">LC1</th>
+                                    <th width="10%" class="text-center lcPad5">LC2</th>
+                                    <th width="10%" class="text-center lcpad5">LC3</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-belgium.jpg"></i>Belgium</td>
+                                    <td width="10%" class="text-center">31</td>
+                                    <td width="10%" class="text-center">22</td>
+                                    <td width="10%" class="text-center">14</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-netherlands.jpg"></i>Netherlands</td>
+                                    <td width="10%" class="text-center">9</td>
+                                    <td width="10%" class="text-center">5</td>
+                                    <td width="10%" class="text-center">2</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="70%"><i class="mr-2"><img src="imgs/flag-germany.jpg"></i>Germany</td>
+                                    <td width="10%" class="text-center">2</td>
+                                    <td width="10%" class="text-center">1</td>
+                                    <td width="10%" class="text-center">0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- accordion panel 3 end --> 
+                      </div>
+                      <!-- accordion ends --> 
                     </div>
                     <div class="col-lg-8">
                       <div class="row row2">
