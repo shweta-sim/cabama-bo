@@ -40,7 +40,7 @@
                                 <div>johndoe123@gmail.com</div>
                             </div>
                         </div>
-                        <div class="dropdown-content"> <a class="dropdown-item" href="#"><i class="fas fa-user"></i>My profile</a> <a class="dropdown-item" href="#"><i class="fas fa-shopping-cart"></i>My orders</a> <a class="dropdown-item" href="#"><i class="fas fa-envelope"></i>Messages</a>
+                        <div class="dropdown-content"> <a class="dropdown-item" href="my-profile.php"><i class="fas fa-user"></i>My Profile</a> <a class="dropdown-item" href="my-orders.php"><i class="fas fa-shopping-cart"></i>My Orders</a> <a class="dropdown-item" href="#"><i class="fas fa-envelope"></i>Messages</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>Logout</a> </div>
                     </div>

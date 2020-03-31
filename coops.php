@@ -24,9 +24,7 @@
 <!-- page wrapper start -->
 <div class="wrapper"> 
   <!-- sidebar start -->
-  <?php
-            include 'sidebar.php';
-            ?>
+  <?php include 'sidebar.php'; ?>
   <!-- sidebar end --> 
   <!-- page content start -->
   <div id="content"> 
@@ -46,7 +44,7 @@
             <div class="card">
               <div class="card-content position-relative">
                 <div class="pos-abso">
-                  <ul class="nav nav-tabs coop-tab" id="coop-tabs" role="tablist">
+                  <ul class="nav nav-tabs" id="coop-tabs" role="tablist">
                     <li class="nav-item"> <a class="nav-link active" id="incubator-tab" data-toggle="tab" href="#incubator" role="tab" aria-controls="incubator" aria-selected="true">Incubator coop</a> </li>
                     <li class="nav-item"> <a class="nav-link" id="local-tab" data-toggle="tab" href="#local" role="tab" aria-controls="local" aria-selected="false">Local coop</a> </li>
                     <li class="nav-item"> <a class="nav-link" id="continental-tab" data-toggle="tab" href="#continental" role="tab" aria-controls="continental" aria-selected="false">Continental coop</a> </li>
@@ -66,87 +64,87 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-12 mb9">
-                        <div class="responsive-table">
-                          <table class="incubator-table">
+                      <div class="col-md-12">
+                        <div class="table-responsive">
+                          <table class="table">
                             <thead>
                               <tr>
-                                <th class="text-left pad5" scope="col">ID</th>
-                                <th class="text-left" scope="col">Name</th>
-                                <th scope="col">Recycle up (€ 0.04)</th>
-                                <th scope="col">Recycle down (€ 0.04)</th>
-                                <th scope="col">Progress</th>
-                                <th scope="col">Upcycled</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th class="text-center">Recycle up (€ 0.04)</th>
+                                <th class="text-center">Recycle down (€ 0.04)</th>
+                                <th>Progress</th>
+                                <th class="text-center">Upcycled</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td class="textleft pad5" data-label="ID">COOP025423</td>
-                                <td class="textleft" data-label="Name">GOLD_IC_Pack</td>
-                                <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                <td data-label="ID">COOP025423</td>
+                                <td data-label="Name">GOLD_IC_Pack</td>
+                                <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Progress"><div class="progress">
+                                <td class="text-center" data-label="Progress"><div class="progress">
                                     <div class="progress-bar" style="width:65%;">
                                       <div class="progress-value">&euro; 1.5</div>
                                       <div class="progressbar-title">&euro; 1.03</div>
                                     </div>
                                   </div></td>
-                                <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
+                                <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
                               </tr>
                               <tr>
-                                <td class="textleft pad5" data-label="ID">COOP025424</td>
-                                <td class="textleft" data-label="Name">GOLD_IC_Pack</td>
-                                <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                <td data-label="ID">COOP025424</td>
+                                <td data-label="Name">GOLD_IC_Pack</td>
+                                <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Progress"><div class="progress">
+                                <td class="text-center" data-label="Progress"><div class="progress">
                                     <div class="progress-bar" style="width:40%;">
                                       <div class="progress-value">&euro; 1.5</div>
                                       <div class="progressbar-title">&euro; 0.45</div>
                                     </div>
                                   </div></td>
-                                <td data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                <td data-label="Upcycled" class="text-center"><i class="fas fa-share"></i></td>
                               </tr>
                               <tr>
-                                <td class="textleft pad5" data-label="ID">COOP025425</td>
-                                <td class="textleft" data-label="Name">UPCYCLED_LOCAL1</td>
-                                <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                <td data-label="ID">COOP025425</td>
+                                <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Progress"><div class="progress">
+                                <td class="text-center" data-label="Progress"><div class="progress">
                                     <div class="progress-bar" style="width:10%;">
                                       <div class="progress-value">&euro; 1.5</div>
                                       <div class="progressbar-title">&euro; 1.08</div>
                                     </div>
                                   </div></td>
-                                <td data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                <td data-label="Upcycled" class="text-center"><i class="fas fa-share"></i></td>
                               </tr>
                               <tr>
-                                <td class="textleft pad5" data-label="ID">COOP025426</td>
-                                <td class="textleft" data-label="Name">RECYCLED_COOP015423</td>
-                                <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                <td data-label="ID">COOP025426</td>
+                                <td data-label="Name">RECYCLED_COOP015423</td>
+                                <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
                                     <input type="checkbox">
                                     <span class="checkmark"></span> </label></td>
-                                <td data-label="Progress"><div class="progress">
+                                <td class="text-center" data-label="Progress"><div class="progress">
                                     <div class="progress-bar" style="width:9%;">
                                       <div class="progress-value">&euro; 1.5</div>
                                       <div class="progressbar-title">&euro; 1.04</div>
                                     </div>
                                   </div></td>
-                                <td data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                <td data-label="Upcycled" class="text-center"><i class="fas fa-share"></i></td>
                               </tr>
                             </tbody>
                           </table>
@@ -158,7 +156,7 @@
                   
                   <!-- tab 2 start -->
                   <div class="tab-pane fade" id="local" role="tabpanel" aria-labelledby="local-tab">
-                    <div class="row world-map displayFlex mb8">
+                    <div class="row world-map displayFlex mb9 mb6-md">
                       <div class="col-md-4">
                         <div class="mb-4">
                           <div class="overlay-panel"> 
@@ -298,15 +296,16 @@
                     </div>
                     <div class="row">
                       <div class="col-md-12">
-                        <div id="world-map-table" class="world-map-table bg-grey">
-                          <div class="pos-abso">
-                            <ul class="nav nav-tabs nav-tabs-sm mb2 coop-tab" id="world-map-tabs" role="tablist">
+                        <div class="card-content bg-grey">
+                          <div class="pos-abso pos-abso-center">
+                            <ul class="nav nav-tabs nav-tabs-inner mb2" id="world-map-tabs" role="tablist">
                               <li class="nav-item"> <a class="nav-link active" id="local-coop1-tab" data-toggle="tab" href="#local-coop1" role="tab" aria-controls="local-coop1" aria-selected="true">Local coop 1</a> </li>
                               <li class="nav-item"> <a class="nav-link" id="local-coop2-tab" data-toggle="tab" href="#local-coop2" role="tab" aria-controls="local-coop2" aria-selected="false">Local coop 2</a> </li>
                               <li class="nav-item"> <a class="nav-link" id="local-coop3-tab" data-toggle="tab" href="#local-coop3" role="tab" aria-controls="local-coop3" aria-selected="false">Local coop 3</a> </li>
                             </ul>
                           </div>
-                          <div class="tab-content" id="local-coop-Content">
+                          <div class="tab-content" id="local-coop-Content"> 
+                            <!-- tab 1 start -->
                             <div class="tab-pane fade show active" id="local-coop1" role="tabpanel" aria-labelledby="local-coop1-tab">
                               <div class="row">
                                 <div class="col-md-12">
@@ -317,89 +316,93 @@
                                   </div>
                                 </div>
                               </div>
-                              <table class="incubator-table">
-                                <thead>
-                                  <tr>
-                                    <th class="text-left pad5" scope="col">ID</th>
-                                    <th class="text-left" scope="col">Name</th>
-                                    <th scope="col">Recycle up (€ 0.04)</th>
-                                    <th scope="col">Recycle down (€ 0.04)</th>
-                                    <th scope="col">Progress</th>
-                                    <th scope="col">Upcycled</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:65%;">
-                                          <div class="progress-value">&euro; 1.5</div>
-                                          <div class="progressbar-title">&euro; 1.03</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:40%;">
-                                          <div class="progress-value">&euro; 1.5</div>
-                                          <div class="progressbar-title">&euro; 0.45</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                    <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:10%;">
-                                          <div class="progress-value">&euro; 1.5</div>
-                                          <div class="progressbar-title">&euro; 1.08</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                    <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:9%;">
-                                          <div class="progress-value">&euro; 1.5</div>
-                                          <div class="progressbar-title">&euro; 1.04</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 1.5</div>
+                                            <div class="progressbar-title">&euro; 1.03</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 1.5</div>
+                                            <div class="progressbar-title">&euro; 0.45</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 1.5</div>
+                                            <div class="progressbar-title">&euro; 1.08</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 1.5</div>
+                                            <div class="progressbar-title">&euro; 1.04</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
+                            <!-- tab 1 end --> 
+                            <!-- tab 2 start -->
                             <div class="tab-pane fade" id="local-coop2" role="tabpanel" aria-labelledby="local-coop2-tab">
                               <div class="row">
                                 <div class="col-md-12">
@@ -410,89 +413,93 @@
                                   </div>
                                 </div>
                               </div>
-                              <table class="incubator-table">
-                                <thead>
-                                  <tr>
-                                    <th class="text-left pad5" scope="col">ID</th>
-                                    <th class="text-left" scope="col">Name</th>
-                                    <th scope="col">Recycle up (€ 0.04)</th>
-                                    <th scope="col">Recycle down (€ 0.04)</th>
-                                    <th scope="col">Progress</th>
-                                    <th scope="col">Upcycled</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:65%;">
-                                          <div class="progress-value">&euro; 20</div>
-                                          <div class="progressbar-title">&euro; 14.20</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:40%;">
-                                          <div class="progress-value">&euro; 20</div>
-                                          <div class="progressbar-title">&euro; 7.65</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                    <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:10%;">
-                                          <div class="progress-value">&euro; 20</div>
-                                          <div class="progressbar-title">&euro; 1.28</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                    <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:9%;">
-                                          <div class="progress-value">&euro; 20</div>
-                                          <div class="progressbar-title">&euro; 0.64</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 20</div>
+                                            <div class="progressbar-title">&euro; 14.20</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 20</div>
+                                            <div class="progressbar-title">&euro; 7.65</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 20</div>
+                                            <div class="progressbar-title">&euro; 1.28</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 20</div>
+                                            <div class="progressbar-title">&euro; 0.64</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
+                            <!-- tab 2 end --> 
+                            <!-- tab 3 start -->
                             <div class="tab-pane fade" id="local-coop3" role="tabpanel" aria-labelledby="local-coop3-tab">
                               <div class="row">
                                 <div class="col-md-12">
@@ -503,89 +510,92 @@
                                   </div>
                                 </div>
                               </div>
-                              <table class="incubator-table">
-                                <thead>
-                                  <tr>
-                                    <th class="text-left pad5" scope="col">ID</th>
-                                    <th class="text-left" scope="col">Name</th>
-                                    <th scope="col">Recycle up (€ 0.04)</th>
-                                    <th scope="col">Recycle down (€ 0.04)</th>
-                                    <th scope="col">Progress</th>
-                                    <th scope="col">Upcycled</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:65%;">
-                                          <div class="progress-value">&euro; 80</div>
-                                          <div class="progressbar-title">&euro; 51.50</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:40%;">
-                                          <div class="progress-value">&euro; 80</div>
-                                          <div class="progressbar-title">&euro; 36.30</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                    <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:10%;">
-                                          <div class="progress-value">&euro; 80</div>
-                                          <div class="progressbar-title">&euro; 5.12</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                    <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:9%;">
-                                          <div class="progress-value">&euro; 80</div>
-                                          <div class="progressbar-title">&euro; 2.56</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 80</div>
+                                            <div class="progressbar-title">&euro; 51.50</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 80</div>
+                                            <div class="progressbar-title">&euro; 36.30</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 80</div>
+                                            <div class="progressbar-title">&euro; 5.12</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 80</div>
+                                            <div class="progressbar-title">&euro; 2.56</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
+                            <!-- tab 3 end --> 
                           </div>
                         </div>
                       </div>
@@ -595,55 +605,53 @@
                   
                   <!-- tab 3 start -->
                   <div class="tab-pane fade" id="continental" role="tabpanel" aria-labelledby="continental-tab">
-                    <div class="row displayFlex mb8 mt5">
+                    <div class="row displayFlex mb9 mb6-md">
                       <div class="col-md-4">
-                        <div class="">
-                          <div class="scroll-panel">
-                            <ul>
-                              <li class="active">
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_africa.png" class="dark"> <img src="imgs/icon_continents_africa_white.png" class="light"> </div>
-                                  <div class="continents-name">Africa</div>
-                                  <div class="continents-num">0</div>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_asia.png" class="dark"> <img src="imgs/icon_continents_asia_white.png" class="light"> </div>
-                                  <div class="continents-name">Asia</div>
-                                  <div class="continents-num">8</div>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_europe.png" class="dark"> <img src="imgs/icon_continents_europe_white.png" class="light"> </div>
-                                  <div class="continents-name">Europe</div>
-                                  <div class="continents-num">54</div>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_north_america.png" class="dark"> <img src="imgs/icon_continents_north_america_white.png" class="light"> </div>
-                                  <div class="continents-name">North America</div>
-                                  <div class="continents-num">5</div>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_oceania.png" class="dark"> <img src="imgs/icon_continents_oceania_white.png" class="light"> </div>
-                                  <div class="continents-name">Oceania / Australia</div>
-                                  <div class="continents-num">10</div>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="continents-list-box">
-                                  <div class="continents-img"> <img src="imgs/icon_continents_south_america.png" class="dark"> <img src="imgs/icon_continents_south_america_white.png" class="light"> </div>
-                                  <div class="continents-name">South America</div>
-                                  <div class="continents-num">10</div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
+                        <div class="scroll-panel">
+                          <ul>
+                            <li class="active">
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_africa.png" class="dark"> <img src="imgs/icon_continents_africa_white.png" class="light"> </div>
+                                <div class="continents-name">Africa</div>
+                                <div class="continents-num">0</div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_asia.png" class="dark"> <img src="imgs/icon_continents_asia_white.png" class="light"> </div>
+                                <div class="continents-name">Asia</div>
+                                <div class="continents-num">8</div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_europe.png" class="dark"> <img src="imgs/icon_continents_europe_white.png" class="light"> </div>
+                                <div class="continents-name">Europe</div>
+                                <div class="continents-num">54</div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_north_america.png" class="dark"> <img src="imgs/icon_continents_north_america_white.png" class="light"> </div>
+                                <div class="continents-name">North America</div>
+                                <div class="continents-num">5</div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_oceania.png" class="dark"> <img src="imgs/icon_continents_oceania_white.png" class="light"> </div>
+                                <div class="continents-name">Oceania / Australia</div>
+                                <div class="continents-num">10</div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="continents-list-box">
+                                <div class="continents-img"> <img src="imgs/icon_continents_south_america.png" class="dark"> <img src="imgs/icon_continents_south_america_white.png" class="light"> </div>
+                                <div class="continents-name">South America</div>
+                                <div class="continents-num">10</div>
+                              </div>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                       <div class="col-md-8">
@@ -652,9 +660,9 @@
                     </div>
                     <div class="row">
                       <div class="col-md-12">
-                        <div id="world-map-table" class="world-map-table bg-grey">
-                          <div class="pos-abso">
-                            <ul class="nav nav-tabs nav-tabs-sm mb2 coop-tab" id="world-map-tabs" role="tablist">
+                        <div class="card-content bg-grey">
+                          <div class="pos-abso pos-abso-center">
+                            <ul class="nav nav-tabs nav-tabs-inner mb2" id="world-map-tabs" role="tablist">
                               <li class="nav-item"> <a class="nav-link active" id="continental-coop1-tab" data-toggle="tab" href="#continental-coop1" role="tab" aria-controls="continental-coop1" aria-selected="true">Continental coop 1</a> </li>
                               <li class="nav-item"> <a class="nav-link" id="continental-coop2-tab" data-toggle="tab" href="#continental-coop2" role="tab" aria-controls="continental-coop2" aria-selected="false">Continental coop 2</a> </li>
                             </ul>
@@ -670,88 +678,90 @@
                                   </div>
                                 </div>
                               </div>
-                              <table class="incubator-table">
-                                <thead>
-                                  <tr>
-                                    <th class="text-left pad5" scope="col">ID</th>
-                                    <th class="text-left" scope="col">Name</th>
-                                    <th scope="col">Recycle up (€ 0.04)</th>
-                                    <th scope="col">Recycle down (€ 0.04)</th>
-                                    <th scope="col">Progress</th>
-                                    <th scope="col">Upcycled</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:65%;">
-                                          <div class="progress-value">&euro; 320</div>
-                                          <div class="progressbar-title">&euro; 240.23</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:40%;">
-                                          <div class="progress-value">&euro; 320</div>
-                                          <div class="progressbar-title">&euro; 167.45</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                    <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:10%;">
-                                          <div class="progress-value">&euro; 320</div>
-                                          <div class="progressbar-title">&euro; 20.08</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                    <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:9%;">
-                                          <div class="progress-value">&euro; 320</div>
-                                          <div class="progressbar-title">&euro; 10.04</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 320</div>
+                                            <div class="progressbar-title">&euro; 240.23</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 320</div>
+                                            <div class="progressbar-title">&euro; 167.45</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 320</div>
+                                            <div class="progressbar-title">&euro; 20.08</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 320</div>
+                                            <div class="progressbar-title">&euro; 10.04</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
                             <div class="tab-pane fade" id="continental-coop2" role="tabpanel" aria-labelledby="continental-coop2-tab">
                               <div class="row">
@@ -763,88 +773,90 @@
                                   </div>
                                 </div>
                               </div>
-                              <table class="incubator-table">
-                                <thead>
-                                  <tr>
-                                    <th class="text-left pad5" scope="col">ID</th>
-                                    <th class="text-left" scope="col">Name</th>
-                                    <th scope="col">Recycle up (€ 0.04)</th>
-                                    <th scope="col">Recycle down (€ 0.04)</th>
-                                    <th scope="col">Progress</th>
-                                    <th scope="col">Upcycled</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:65%;">
-                                          <div class="progress-value">&euro; 1280</div>
-                                          <div class="progressbar-title">&euro; 845.20</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                    <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox" checked="checked">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:40%;">
-                                          <div class="progress-value">&euro; 1280</div>
-                                          <div class="progressbar-title">&euro; 667.65</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                    <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:10%;">
-                                          <div class="progress-value">&euro; 1280</div>
-                                          <div class="progressbar-title">&euro; 81.28</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                    <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                    <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                        <input type="checkbox">
-                                        <span class="checkmark"></span> </label></td>
-                                    <td data-label="Progress"><div class="progress">
-                                        <div class="progress-bar" style="width:9%;">
-                                          <div class="progress-value">&euro; 1280</div>
-                                          <div class="progressbar-title">&euro; 40.64</div>
-                                        </div>
-                                      </div></td>
-                                    <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 1280</div>
+                                            <div class="progressbar-title">&euro; 845.20</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 1280</div>
+                                            <div class="progressbar-title">&euro; 667.65</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 1280</div>
+                                            <div class="progressbar-title">&euro; 81.28</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 1280</div>
+                                            <div class="progressbar-title">&euro; 40.64</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -854,202 +866,208 @@
                   <!-- tab 3 end --> 
                   <!-- tab 4 start -->
                   <div class="tab-pane fade" id="global" role="tabpanel" aria-labelledby="global-tab">
-                    <div id="global-map-table" class="global-map-table bg-grey">
-                      <div class="pos-abso">
-                        <ul class="nav nav-tabs nav-tabs-sm mb2 coop-tab" id="global-tabs" role="tablist">
-                          <li class="nav-item"> <a class="nav-link active" id="global-coop1-tab" data-toggle="tab" href="#global-coop1" role="tab" aria-controls="global-coop1" aria-selected="true">Global coop 1</a> </li>
-                          <li class="nav-item"> <a class="nav-link" id="global-coop2-tab" data-toggle="tab" href="#global-coop2" role="tab" aria-controls="global-coop2" aria-selected="false">Global coop 2</a> </li>
-                        </ul>
-                      </div>
-                      <div class="tab-content" id="local-coop-Content">
-                        <div class="tab-pane fade show active" id="global-coop1" role="tabpanel" aria-labelledby="global-coop1-tab">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="currency local-tab"> <img src="imgs/flag-belgium-round.png">
-                                <div class="amo">€ 163.68</div>
-                                <i class="fas fa-arrow-right"></i>
-                                <div class="amo2">€ 5120</div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card-content bg-grey">
+                          <div class="pos-abso pos-abso-center">
+                            <ul class="nav nav-tabs nav-tabs-inner mb2" id="global-tabs" role="tablist">
+                              <li class="nav-item"> <a class="nav-link active" id="global-coop1-tab" data-toggle="tab" href="#global-coop1" role="tab" aria-controls="global-coop1" aria-selected="true">Global coop 1</a> </li>
+                              <li class="nav-item"> <a class="nav-link" id="global-coop2-tab" data-toggle="tab" href="#global-coop2" role="tab" aria-controls="global-coop2" aria-selected="false">Global coop 2</a> </li>
+                            </ul>
+                          </div>
+                          <div class="tab-content" id="local-coop-Content">
+                            <div class="tab-pane fade show active" id="global-coop1" role="tabpanel" aria-labelledby="global-coop1-tab">
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="currency local-tab"> <img src="imgs/flag-belgium-round.png">
+                                    <div class="amo">€ 163.68</div>
+                                    <i class="fas fa-arrow-right"></i>
+                                    <div class="amo2">€ 5120</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">ID</th>
+                                      <th scope="col">Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 5120</div>
+                                            <div class="progressbar-title">&euro; 3210.32</div>
+                                          </div>
+                                        </div></td>
+                                        <td class="text-center" data-label="Upcycled" class="activeGreen">
+                                      <i class="fas fa-share"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 5120</div>
+                                            <div class="progressbar-title">&euro; 2024.45</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 5120</div>
+                                            <div class="progressbar-title">&euro; 527.08</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 5120</div>
+                                            <div class="progressbar-title">&euro; 100.04</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </div>
                             </div>
-                          </div>
-                          <div class="responsive-table">
-                            <table class="incubator-table">
-                              <thead>
-                                <tr>
-                                  <th class="text-left pad5" scope="col">ID</th>
-                                  <th class="text-left" scope="col">Name</th>
-                                  <th scope="col">Recycle up (€ 0.04)</th>
-                                  <th scope="col">Recycle down (€ 0.04)</th>
-                                  <th scope="col">Progress</th>
-                                  <th scope="col">Upcycled</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                  <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:65%;">
-                                        <div class="progress-value">&euro; 5120</div>
-                                        <div class="progressbar-title">&euro; 3210.32</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                  <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:40%;">
-                                        <div class="progress-value">&euro; 5120</div>
-                                        <div class="progressbar-title">&euro; 2024.45</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                  <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:10%;">
-                                        <div class="progress-value">&euro; 5120</div>
-                                        <div class="progressbar-title">&euro; 527.08</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                  <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:9%;">
-                                        <div class="progress-value">&euro; 5120</div>
-                                        <div class="progressbar-title">&euro; 100.04</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="global-coop2" role="tabpanel" aria-labelledby="global-coop2-tab">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="currency local-tab"> <img src="imgs/flag-belgium-round.png">
-                                <div class="amo">€ 655.36</div>
-                                <i class="fas fa-arrow-right"></i>
-                                <div class="amo2">€ 20480</div>
+                            <div class="tab-pane fade" id="global-coop2" role="tabpanel" aria-labelledby="global-coop2-tab">
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="currency local-tab"> <img src="imgs/flag-belgium-round.png">
+                                    <div class="amo">€ 655.36</div>
+                                    <i class="fas fa-arrow-right"></i>
+                                    <div class="amo2">€ 20480</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th class="text-center">Recycle up (€ 0.04)</th>
+                                      <th class="text-center">Recycle down (€ 0.04)</th>
+                                      <th>Progress</th>
+                                      <th class="text-center">Upcycled</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-label="ID">COOP025423</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress ">
+                                          <div class="progress-bar" style="width:65%;">
+                                            <div class="progress-value">&euro; 20480</div>
+                                            <div class="progressbar-title">&euro; 11205.20</div>
+                                          </div>
+                                        </div></td>
+                                      <td data-label="Upcycled" class="activeGreen text-center"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025424</td>
+                                      <td data-label="Name">GOLD_IC_Pack</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox" checked="checked">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:40%;">
+                                            <div class="progress-value">&euro; 20480</div>
+                                            <div class="progressbar-title">&euro; 9711.65</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025425</td>
+                                      <td data-label="Name">UPCYCLED_LOCAL1</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:10%;">
+                                            <div class="progress-value">&euro; 20480</div>
+                                            <div class="progressbar-title">&euro; 1310.28</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                    <tr>
+                                      <td data-label="ID">COOP025426</td>
+                                      <td data-label="Name">RECYCLED_COOP015423</td>
+                                      <td class="text-center" data-label="Recycle up (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td class="text-center" data-label="Recycle down (€ 0.04)"><label class="check-box-container">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span> </label></td>
+                                      <td data-label="Progress"><div class="progress">
+                                          <div class="progress-bar" style="width:9%;">
+                                            <div class="progress-value">&euro; 20480</div>
+                                            <div class="progressbar-title">&euro; 655.64</div>
+                                          </div>
+                                        </div></td>
+                                      <td class="text-center" data-label="Upcycled"><i class="fas fa-share"></i></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </div>
                             </div>
-                          </div>
-                          <div class="responsive-table">
-                            <table class="incubator-table">
-                              <thead>
-                                <tr>
-                                  <th class="text-left pad5" scope="col">ID</th>
-                                  <th class="text-left" scope="col">Name</th>
-                                  <th scope="col">Recycle up (€ 0.04)</th>
-                                  <th scope="col">Recycle down (€ 0.04)</th>
-                                  <th scope="col">Progress</th>
-                                  <th scope="col">Upcycled</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025423</td>
-                                  <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress ">
-                                      <div class="progress-bar" style="width:65%;">
-                                        <div class="progress-value">&euro; 20480</div>
-                                        <div class="progressbar-title">&euro; 11205.20</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled" class="activeGreen"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025424</td>
-                                  <td class="text-left" data-label="Name">GOLD_IC_Pack</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox" checked="checked">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:40%;">
-                                        <div class="progress-value">&euro; 20480</div>
-                                        <div class="progressbar-title">&euro; 9711.65</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025425</td>
-                                  <td class="text-left" data-label="Name">UPCYCLED_LOCAL1</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:10%;">
-                                        <div class="progress-value">&euro; 20480</div>
-                                        <div class="progressbar-title">&euro; 1310.28</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                                <tr>
-                                  <td class="text-left pad5" data-label="ID">COOP025426</td>
-                                  <td class="text-left" data-label="Name">RECYCLED_COOP015423</td>
-                                  <td data-label="Recycle up (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Recycle down (€ 0.04)"><label class="check-box-container">
-                                      <input type="checkbox">
-                                      <span class="checkmark"></span> </label></td>
-                                  <td data-label="Progress"><div class="progress">
-                                      <div class="progress-bar" style="width:9%;">
-                                        <div class="progress-value">&euro; 20480</div>
-                                        <div class="progressbar-title">&euro; 655.64</div>
-                                      </div>
-                                    </div></td>
-                                  <td data-label="Upcycled"><i class="fas fa-share"></i></td>
-                                </tr>
-                              </tbody>
-                            </table>
                           </div>
                         </div>
                       </div>

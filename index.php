@@ -131,7 +131,7 @@
                               <td class="text-right">€ 25</td>
                             </tr>
                             <tr>
-                              <td><div class="progress">
+                              <td><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div></td>
                             </tr>
@@ -140,23 +140,23 @@
                         <table width="100%">
                           <tbody>
                             <tr>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
@@ -277,7 +277,7 @@
                               <td class="text-right">€ 125</td>
                             </tr>
                             <tr>
-                              <td><div class="progress">
+                              <td><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div></td>
                             </tr>
@@ -286,23 +286,23 @@
                         <table width="100%">
                           <tbody>
                             <tr>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
-                              <td width="20%" class="text-center"><div class="progress">
+                              <td width="20%" class="text-center"><div class="progress green">
                                   <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div>€ 5</div></td>
